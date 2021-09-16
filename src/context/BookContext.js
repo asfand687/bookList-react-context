@@ -20,21 +20,9 @@ const initialState = [
 
 const BookContextProvider = ({ children }) => {
 	const [state, dispatch] = useReducer(BookReducer, initialState)
-	const addBook = (title, author) => {
-		dispatch({
-			type: 'ADD_BOOK',
-			payload: { title, author },
-		})
-	}
-	const removeBook = (id) => {
-		dispatch({
-			type: 'REMOVE_BOOK',
-			payload: id,
-		})
-	}
 
 	return (
-		<BookContext.Provider value={{ books: state, addBook, removeBook }}>
+		<BookContext.Provider value={{ books: state, dispatch }}>
 			{children}
 		</BookContext.Provider>
 	)
