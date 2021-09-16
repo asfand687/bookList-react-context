@@ -24,11 +24,11 @@ body {
 }
 
 .book-list {
-	padding: 20px;
+	margin: 20px;
 }
 .book-list ul {
 	padding: 0;
-	list-style: none;
+	list-style-type: none;
 }
 .book-list li {
 	background: #6d3d6d;
@@ -36,13 +36,6 @@ body {
 	padding: 10px;
 	cursor: pointer;
 	margin: 10px 0;
-	list-style: none;
-}
-.book-list li:first-of-type {
-	margin-top: 0px;
-}
-.book-list li:last-of-type {
-	margin-bottom: 0;
 }
 .book-list li:hover {
 	opacity: 0.7;
@@ -58,6 +51,26 @@ body {
 	color: #ddd;
 }
 .empty {
-	padding: 20px;
+	margin: 20px;
 	text-align: center;
+}
+
+form {
+	padding: 20px;
+}
+.text {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 6px 0;
+	background: #3c1f3c;
+	color: #fff;
+	border: 0;
+}
+.submit-button {
+	margin: 10px auto;
+	background: #eee;
+	border: 0;
+	padding: 6px 20px;
+	display: block;
 }
