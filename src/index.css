@@ -36,6 +36,7 @@ body {
 	padding: 10px;
 	cursor: pointer;
 	margin: 10px 0;
+	list-style: none;
 }
 .book-list li:hover {
 	opacity: 0.7;
@@ -66,6 +67,9 @@ form {
 	background: #3c1f3c;
 	color: #fff;
 	border: 0;
+}
+.text:focus {
+	outline: 0;
 }
 .submit-button {
 	margin: 10px auto;
