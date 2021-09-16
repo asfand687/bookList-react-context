@@ -14,7 +14,7 @@ const BookContextProvider = ({ children }) => {
 		{ id: uuidv4(), title: 'The Fifth Mountain', author: 'Paulo Coelho' },
 		{
 			id: uuidv4(),
-			title: 'The Saint of Insipient Insanities',
+			title: 'The Saint of Incipient Insanities',
 			author: 'Elif Shafak',
 		},
 	])

@@ -22,3 +22,42 @@ body {
 .navbar h1 {
 	margin: 10px 0;
 }
+
+.book-list {
+	padding: 20px;
+}
+.book-list ul {
+	padding: 0;
+	list-style: none;
+}
+.book-list li {
+	background: #6d3d6d;
+	border-radius: 4px;
+	padding: 10px;
+	cursor: pointer;
+	margin: 10px 0;
+	list-style: none;
+}
+.book-list li:first-of-type {
+	margin-top: 0px;
+}
+.book-list li:last-of-type {
+	margin-bottom: 0;
+}
+.book-list li:hover {
+	opacity: 0.7;
+	text-decoration: line-through;
+}
+.book-list .title {
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.2em;
+}
+.book-list .author {
+	font-size: 0.9em;
+	color: #ddd;
+}
+.empty {
+	padding: 20px;
+	text-align: center;
+}
